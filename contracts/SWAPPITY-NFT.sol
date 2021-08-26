@@ -6,12 +6,7 @@ import "hardhat/console.sol";
 import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 
 
-contract SWAPPITY is ERC1155 {
-    uint256 public constant GOLD = 0;
-   uint256 public constant SILVER = 1;
-   uint256 public constant THORS_HAMMER = 2;
-   uint256 public constant SWORD = 3;
-   uint256 public constant SHIELD = 4;
+contract SWAPPITYNFT is ERC1155 {
 
    constructor() public ERC1155("") {
    }
